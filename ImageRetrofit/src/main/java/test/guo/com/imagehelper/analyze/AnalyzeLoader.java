@@ -63,9 +63,6 @@ public class AnalyzeLoader {
             for (int p = 0; p < mParameterAnnotationsLength; p++) {
                 Type parameterType = parameterTypes[p];
                 Annotation[] parameterAnnotations = parameterAnnotationsArray[p];
-                /**
-                 * 将OptionHandler按照顺序保存在数组中
-                 */
                 mOptionHandlers[p] = parseParameter(p, parameterType, parameterAnnotations);
             }
             //拿到所有参数的类型
@@ -108,8 +105,6 @@ public class AnalyzeLoader {
     }
 
     /**
-     * 将每一个注解保存成一个OptionHandler，
-     * 顺序是方法参数中注解声明的顺序，这个顺序同样是参数的顺序
      *
      * @param p
      * @param type

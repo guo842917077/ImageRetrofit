@@ -12,7 +12,6 @@ import test.guo.com.imagehelper.utils.Preconditions;
 
 /**
  * Created by guo on 2017/9/8.
- * OptionsHadnler对应的是每一个LoaderOptions的参数，它负责给options对象进行赋值
  */
 
 public abstract class OptionsHandler<T> {

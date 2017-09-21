@@ -9,7 +9,7 @@ import test.guo.com.imagehelper.paramannotation.ImageType;
 import test.guo.com.imagehelper.paramannotation.TargetLoader;
 
 /**
- * Created by Administrator on 2017/9/8.
+ * Created by guo on 2017/9/8.
  * 配置ImageLoader需要用到的参数  站位图
  */
 
